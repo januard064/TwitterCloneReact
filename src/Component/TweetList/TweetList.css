@@ -1,0 +1,142 @@
+
+
+.tweetlist{
+    padding-bottom:20px;
+    height: 100vw;
+  }
+  
+.tweetlist .top{
+    display: flex;
+    padding:0 20px;
+    align-items:center;
+    border-bottom: 1px solid #e6ecf0;
+    padding-bottom:20px;
+}
+
+.tweetlist .top .none{
+    color: #1da1f2;
+}
+
+.tweetlist .top .crud{
+    position: absolute;
+    border: 1px #ffffff solid;
+    background-color: white;
+    box-shadow: 5px 5px 6px 3px rgba(0, 0, 0, 0.3);
+    z-index: 9;
+    margin-left: 330px;
+    margin-bottom: 3%;
+    width: 16%;
+    margin-top: 5%;
+ }
+
+ .tweetlist .top .crud table{
+    width: 100%;
+    border-spacing:0;
+    border-collapse: collapse
+ }
+ 
+
+ .tweetlist .top .crud table .icon{ 
+     color: #a1a7aa;
+ }
+
+ .tweetlist .top .crud table tr{ 
+    height: 35px;
+ }
+
+ .tweetlist .top .crud table button{
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: #ffffff;
+    height: 35px;
+   
+ }
+
+ .tweetlist .top .crud table tr :hover{
+    background-color:#f7f7f7;
+ }
+
+
+ 
+.tweetlist :hover{
+    background:#f7f7f7;
+    cursor: pointer;
+}
+
+.tweetlist .profile{
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.tweetlist .profile img{
+    width: 100%;
+}
+
+
+.tweetlist .content{
+    margin-left:20px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+.tweetlist .content .head .username{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.tweetlist .content .head h4{
+   font-size: 15px;
+}
+
+.tweetlist .content .head h4 span{
+    color: #62717d;
+ }
+
+
+.tweetlist .content .head .more{
+   float: right;
+}
+
+.tweetlist .content .body{
+    margin-top:-15px;
+}
+  
+
+
+.tweetlist .content .action{
+    width: 90%;
+}
+
+.tweetlist .content .action table{
+    width: 100%;
+    font-size: 16px;
+}
+
+.tweetlist .content .action span{
+    font-size: 16px;
+}
+
+
+
+.tweetlist .content .action table .ic{
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   color:#a1a7aa;
+}
+
+
+.tweetlist .content .action .ic:hover{
+    background:#f7deec;
+    color:#1da1f2;
+    cursor: pointer;
+    border-radius: 50%;
+ }
+
+
